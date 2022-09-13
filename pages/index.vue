@@ -1,18 +1,19 @@
 <template>
-  <figure>
-    <nuxt-picture
-      src="/v2.png"
-      sizes="xs:200px md:500px lg:1024"
-    />
-  </figure>
-
-  <div class="container">
-    <nuxt-img
-      src="/v2.png"
-      alt="Space by Jeremy Thomas on Unsplash"
-      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
-    />
-  </div>
+  <NuxtLayout>
+    <!-- https://v1.image.nuxtjs.org/components/nuxt-picture -->
+    <!-- https://v1.image.nuxtjs.org/components/nuxt-img -->
+    <figure>
+      <nuxt-picture
+        src="/v2.png"
+        width="1920"
+        height="1590 "
+        sizes="xs:200px md:500px lg:1024"
+      />
+      <figcaption class="text-center text-gray-600 text-xs mt-3">
+        Meh Liebi
+      </figcaption>
+    </figure>
+  </NuxtLayout>
 </template>
 
 <script>

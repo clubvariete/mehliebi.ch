@@ -50,7 +50,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxt/image'
+    '@nuxt/image-edge'
   ],
   /*
   ** Build configuration
