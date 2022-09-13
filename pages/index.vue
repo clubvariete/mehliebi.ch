@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <div>
-      <img src="/v2.png"/>
-    </div>
+    <img src="/v2.png"/>
+  </div>
+  <div class="container">
     <div>
       <h1 class="title">
       Meh Liebi
