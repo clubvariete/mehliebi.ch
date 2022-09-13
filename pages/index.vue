@@ -1,7 +1,5 @@
 <template>
-  <div class="container">
-    <img src="/v2.png" height="100%"/>
-    <br>
+  <div class="container" style=background-image:url(/v2.png)>
   </div>
 </template>
 
@@ -13,12 +11,14 @@ export default {}
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  min-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .title {
