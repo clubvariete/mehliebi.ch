@@ -25,6 +25,7 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: #000;
 }
 
 .title {
