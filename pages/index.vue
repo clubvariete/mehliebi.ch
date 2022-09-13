@@ -3,13 +3,6 @@
     <img src="/v2.png" width="80vw"/>
     <br>
   </div>
-  <div class="container">
-    <div>
-      <h1 class="title">
-      Meh Liebi
-      </h1>
-    </div>
-  </div>
 </template>
 
 <script>
