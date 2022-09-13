@@ -1,5 +1,17 @@
 <template>
-  <div class="container" style=background-image:url(/v2.png)>
+  <figure>
+    <nuxt-picture
+      src="/v2.png"
+      sizes="xs:200px md:500px lg:1024"
+    />
+  </figure>
+
+  <div class="container">
+    <nuxt-img
+      src="/v2.png"
+      alt="Space by Jeremy Thomas on Unsplash"
+      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+    />
   </div>
 </template>
 
