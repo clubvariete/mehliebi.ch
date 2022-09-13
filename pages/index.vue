@@ -2,7 +2,7 @@
   <img src="/v2.png" />
   <div class="container">
     <div>
-      <nuxt-img src="/v2.png" sizes="sm:100vw md:50vw lg:400px"/>
+      <img src="/v2.png" sizes="sm:100vw md:50vw lg:400px"/>
     </div>
     <div>
       <Logo><img src="/v2.png" /></Logo>
